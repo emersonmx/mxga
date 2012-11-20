@@ -1,7 +1,4 @@
 class GenericApplication(object):
-'''Default genetic application.
-'''
-
     def __init__(self):
         object.__init__(self)
 
@@ -12,8 +9,6 @@ class GenericApplication(object):
         pass
 
     def _best_fitness(self):
-        '''Returns the best fitness.
-        '''
         pass
 
     def _select(self):
