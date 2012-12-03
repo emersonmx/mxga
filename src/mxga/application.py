@@ -13,10 +13,10 @@ class GenericApplication(object):
         return False
 
     def _select(self):
-        pass
+        return None
 
     def _crossover(self, chromosomes):
-        pass
+        return None
 
     def _mutation(self, chromosomes):
         pass
